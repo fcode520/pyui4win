@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="784,525">
+    <VerticalLayout width="784" height="525" bkimage="主页面.png">
+        <HorizontalLayout width="783" height="102">
+            <Button name="BtnClose" float="true" pos="740,1,0,0" width="39" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="btn_close_normal.png" hotimage="btn_close_highlight.png" pushedimage="btn_close_down.png" />
+            <Button name="BtnMax" float="true" pos="699,1,0,0" width="39" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="btn_max_normal.png" hotimage="btn_max_highlight.png" pushedimage="btn_max_down.png" />
+            <Button name="BtnMin" float="true" pos="657,2,0,0" width="39" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="btn_mini_normal.png" hotimage="btn_mini_highlight.png" pushedimage="btn_mini_down.png" />
+            <Button name="BtnMain" text="首页" float="true" pos="42,61,0,0" width="87" height="31" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;未标题-1.png&apos; source=&apos;0,0,80,30&apos;" pushedimage="file=&apos;未标题-1.png&apos; source=&apos;80,0,160,30&apos;" />
+        </HorizontalLayout>
+        <HorizontalLayout width="782" height="390">
+            <VerticalLayout width="400" height="383" />
+            <TileLayout width="376" height="383">
+                <ActiveX width="362" height="379" />
+            </TileLayout>
+        </HorizontalLayout>
+        <HorizontalLayout width="784" height="33" />
+    </VerticalLayout>
+</Window>
